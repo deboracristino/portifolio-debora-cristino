@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="arquivo.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="items">
+            <button class="item active" data-item="about">Sobre mim</button>
+            <button class="item" data-item="qualification">Qualificações Academica</button>
+            <button class="item" data-item="portifolio">Portfólio </button>
+            <button class="item" data-item="contato">Contatos</button>
+        </nav>
+    </header>
+    <main>
+        <div data-content="about" class="presentation">
+            <section class="presentation-content">
+                <h1 class="presentation-content-title">Sobre mim</h1>
+                <p class="presentation-content-text">Meu nome é Débora Cristino, tenho 22 anos e sou uma desenvolvedora
+                    iniciante. Atualmente, estou cursando Engenharia de Software, o que tem sido uma jornada empolgante
+                    e enriquecedora para mim.<br>
+                    Desde que comecei meus estudos na área de tecnologia, busco me aprofundar no mundo da programação.
+                    Tenho conhecimentos em HTML e CSS, que são as bases para o desenvolvimento de websites.
+                    <br>No momento, estou me aprofundando em JavaScript, com o objetivo de expandir minhas habilidades e
+                    me tornar uma melhor desenvolvedora.
+                    Além disso, tenho conhecimentos básicos em análise de dados utilizando Power BI. Essa habilidade me
+                    permite não apenas entender e manipular dados, mas também criar visualizações que ajudam na tomada
+                    de decisões informadas.<br>
+                    Estou sempre em busca de novos desafios e oportunidades para aplicar o que aprendo e crescer na área
+                    de tecnologia.
+                </p>
+            </section>
+        </div>
+        <div data-content="qualification" class="presentation hide">
+            <section class="presentation-content">
+                <h1 class="presentation-content-title">Formação e Cursos Complementares</h1>
+                <section class="presentation-content-text">
+                    <div>
+                        <ul>
+                            <li>Graduanda em Engenharia de Software pela Uninter. Atualmente no 3° periodo.</li>
+                            <li>Possuo inglês nivel intermediario</li>
+                            <li>Certificado em Programação Web pela Prodabel.</li>
+                        </ul>
+                        <br>
+                    </div>
+                    <h3>Acesse meu Linkedin para acessar meus certificados:</h3>
+                </section>
+                <a class="presentation-link-style"
+                    href="https://www.linkedin.com/in/debora-cristino/details/certifications/" target="_blank">
+                    <img class="image-icon"
+                        src="https://sat02pap003files.storage.live.com/y4mclR-4HiaSgk32oavJ10qOG2hb0cFUVJb2hamTJCHkiYGAOnv4uZG6xz7RggnhoCjP1gSAkGTIQ6-ZeW6M0jPqd5nJJdsnVakdIr8vNUfH3ADRkskDCzegfuayvK_c1zX04MFhvYswl0RYZg9-ynDVUijJn1eqDDo647ePy01BGY2gVpBRPybSUMCYXXsSC0o?width=512&height=512&cropmode=none">
+                    Linkedin</a>
+            </section>
+
+        </div>
+        <div data-content="portifolio" class="presentation hide">
+            <section class="presentation-content">
+                <h1 class="presentation-content-title">Bem- vindo ao meu portifólio</h1>
+                <p class="presentation-content-text"> Possuo apenas um projeto criado para uma Atividade Extesionista da
+                    Faculdade de Engenharia de Software, com o intuito de promover adoção e doação responsavel de
+                    animais, divulgando ONGs com esse proposito.
+                    <br>Projeto ainda em desenvolvimento, para acessar o conteúdo é só acessar o link abaixo:
+                </p>
+                <a class="presentation-link-style"
+                    href="https://www.figma.com/proto/mey9gmbKkp62gtkiWfNKG3/EveryPets?node-id=0-1&t=vUqfOAHGYw25Ho5i-1"
+                    target="_blank">
+                    <img class="imagem-icon" src="https://1drv.ms/i/s!AlPBtdoANR36g64Yxw9WRThAtk0tpw?embed=1">Protótipo
+                    EveryPets</a>
+            </section>
+        </div>
+        <div data-content="contato" class="presentation hide">
+            <section class="presentation-content">
+                <h1 class="presentation-content-title">Se interessou pelo meu trabalho?</h1>
+                <h2 class="presentation-content-title"> Entre em contato!</h2>
+                <form name="formulário-contato">
+                    <label for="Nome">Nome: </label><br>
+                    <input type="name" nome="nome" required><br>
+                    <label for="Email">Email: </label><br>
+                    <input type="email" nome="email" required><br>
+                    <label for="Assunto">Assunto: </label><br>
+                    <input type="textarea" nome="Assunto" required><br><br>
+                    <textarea placeholder="Digite aqui a sua mensagem:" rows="5" cols="50" required></textarea><br><br>
+                    <input class="presentation-link" type="submit" value="Enviar">
+                </form>
+    </main>
+</body>
+    <footer>
+        <p class="footer">Desenvolvido por Débora Cristino</p>
+    </footer>
+
+</html>
